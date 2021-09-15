@@ -1,4 +1,4 @@
---Queries used for Tableau Project
+-- Queries used for Tableau Project
 
 -- 1.Global Cases and Deaths
 
