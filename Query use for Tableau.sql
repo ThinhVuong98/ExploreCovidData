@@ -33,8 +33,7 @@ Order by InfectedPercent desc
 
 -- 4.Percent population infected over time by country
 
-Select location, date, population,
-	max(cast(total_cases as numeric)) as TotalCases,
+Select location, date, population, max(cast(total_cases as numeric)) as TotalCases,
 	cast(max(cast(total_cases as decimal))/population* 100 as decimal(16,2)) as InfectedPercent
 From CovidProject..cases
 Where continent is not Null
