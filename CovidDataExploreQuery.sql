@@ -1,3 +1,5 @@
+-- Query use for exploring data
+
 Select *
 From CovidProject..cases
 order by location, date
