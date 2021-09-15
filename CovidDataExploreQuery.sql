@@ -1,8 +1,6 @@
--- Query use for exploring data
+-- Query to explore data about Covid19 from https://ourworldindata.org/coronavirus
 
-Select *
-From CovidProject..cases
-order by location, date
+-- Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 
 
